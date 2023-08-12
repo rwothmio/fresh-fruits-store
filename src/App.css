@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FAFDD6;
+  background: #EDF1D6;
+  font-family: var(--font-family);
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+/* styles for the scroll bar */
+.cartCheckout__cartTotal td:first-child {
+  text-align: left;
+}
+.cartCheckout__cartTotal td:last-child {
+  text-align: right;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--txt1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bg1);
+}

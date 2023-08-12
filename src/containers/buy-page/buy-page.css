@@ -1,0 +1,135 @@
+.buyPage {
+    margin: 8rem 6rem 0;
+    min-height: 70vh;
+}
+
+.buyPage__buySection {
+    background: white;
+    box-shadow: var(--b-shadow1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#name {
+    font-size: 24px;
+    letter-spacing: 1.2px;
+}
+
+#nameAndRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyPage__buySection-itemInfo div:first-child {
+    max-width: 320px;
+    margin-right: 1rem;
+}
+
+.buyPage__buySection-itemInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buyPage__buySection-itemInfo img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+}
+
+
+.buyPage__buySection-itemInfo__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+td:first-child {
+    font-size: var(--heading1);
+    letter-spacing: 1px;
+}
+
+td:last-child {
+    text-align: right;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.buyPage__buySection-itemInfo__container table {
+    max-width: 320px;
+    min-width: 300px;
+    margin-bottom: 2rem;
+}
+
+#description {
+    align-self: flex-start;
+    width: 320px;
+    text-align: justify;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--bg1);
+    border-left: solid 2px var(--txt1);
+    border-bottom: solid 2px var(--txt1);
+    border-bottom-left-radius: 8px;
+    padding-left: 0.8rem;
+    padding: 0 0.8rem 0.8rem;
+}
+
+.buyPage__suggestionSection-heading {
+    font-size: var(--heading1);
+    letter-spacing: 1px;
+    margin-left: 0.5rem;
+}
+
+.buyPage__suggestionSection-container {
+    display: flex;
+    border-radius: 8px;
+    overflow-x: auto;
+    padding: 5px;
+}
+
+.buyPage__suggestionSection-container::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+
+  @media screen and (min-width: 1366px) {
+    .buyPage {
+        margin: 7.5rem auto 0;
+        max-width: 1366px;
+    }
+    #description {
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .buyPage {
+        margin: 7.5rem 4rem 0;
+    }
+    #description {
+        width: unset;
+    }
+}
+@media screen and (max-width: 770px) {
+    .buyPage {
+        margin: 7rem 2.5rem 0;
+    }
+}
+@media screen and (max-width: 550px) {
+    .buyPage {
+        margin: 6rem 1rem 0;
+    }
+}
+@media screen and (max-width: 370px) {
+    .buyPage__buySection-itemInfo__container table {
+        min-width: unset;
+    }
+}

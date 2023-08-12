@@ -1,0 +1,19 @@
+.product {
+    width: 350px;
+    color: white;
+    background: var(--bg2);
+    padding: var(--spacing4);
+    border-radius: 8px;
+}
+
+.product h2 {
+    font-size: 22px;
+}
+img {
+    border-radius: 8px;
+}
+
+.product__items {
+    display: flex;
+    justify-content: space-around;
+}

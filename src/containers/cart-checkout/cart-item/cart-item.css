@@ -1,0 +1,25 @@
+.cartItem {
+    background: white;
+    width: 100;
+    border-bottom: dotted 1px rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.cartItem__itemInfo img {
+    width: 75px;
+    height: 56.25px;
+}
+
+.cartItem__itemInfo {
+    display: flex;
+}
+
+#removeFromCart {
+    color: var(--txt2);
+    background: inherit;
+    opacity: 0.7;
+    font-size: large;
+    align-self: flex-start;
+}

@@ -1,0 +1,44 @@
+.about {
+    margin: 8rem 6rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__content {
+    align-self: center;
+    max-width: 700px;
+}
+
+.about h1 {
+    color: var(--txt2);
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    font-size: 20px;
+    letter-spacing: 0.6px;
+}
+
+.freshFruitStore {
+    color: var(--txt2);
+}
+
+@media screen and (max-width: 1024px){
+    .about {
+        margin: 6rem 4rem 0;
+    }
+}
+@media screen and (max-width: 770px){
+    .about {
+        margin: 6rem 2.5rem 0;
+    }
+}
+@media screen and (max-width: 550px){
+    .about {
+        margin: 6rem 1rem 0;
+    }
+}

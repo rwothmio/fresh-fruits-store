@@ -1,0 +1,106 @@
+.cartCheckout {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 5rem 6rem 1rem;
+}
+
+.cartCheckout__cartItems {
+    max-height: 550px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+
+.cartCheckout__cartItems-heading {
+    font-size: var(--heading1);
+    margin: 0.5rem;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+}
+
+.cartCheckout__cartItems-container {
+    overflow-y: scroll;
+}
+
+#removeAllFromCart {
+    letter-spacing: 1.2px;
+    color: var(--txt2);
+    background: inherit;
+    align-self: flex-end;
+    margin: 8px 6px 0 1rem;
+}
+
+.cartCheckout__cartTotal {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing4);
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.cartCheckout__cartTotal table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cartCheckout__cartTotal table td {
+    font-size: var(--heading2);
+    padding: 0.3rem 0;
+}
+
+.cartCheckout__cartTotal table tr:last-child{
+    font-size: var(--heading1);
+    letter-spacing: 1.4px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+  #proceedToPayment {
+    color: white;
+    text-align: center;
+    letter-spacing: 1.8px;
+    width: 100%;
+    background: var(--bg1);
+    height: 38px;
+    padding: 0 16px;
+    align-self: flex-end;
+    font-size: var(--heading1);
+    border-radius: 3px;
+    margin-top: 1.5rem;
+  }
+
+  @media screen and (min-width: 1366px) {
+    .cartCheckout {
+        margin: 5rem auto 1rem;
+        max-width: 1366px;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+
+  @media screen and (max-width: 770px) {
+    .cartCheckout {
+        flex-direction: column;
+        align-items: center;
+        margin: var(--spacing3);
+    }
+    .cartCheckout__cartItems {
+        max-height: 40vh;
+        margin-bottom: 1rem;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .cartCheckout {
+        margin: var(--spacing4);
+    }
+  }
+  @media screen and (max-width: 441px) {
+
+    .cartCheckout__cartItems,
+    .cartCheckout__cartTotal {
+        width: calc(100% - 2px);
+    }
+  }

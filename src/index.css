@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+:root {
+    --font-family: 'Manrope', sans-serif;
+    --bg1: #557153;
+    --bg2: #7D8F69;
+    --txt1: #E6E5A3;
+    --txt2: #B04902;
+    --hovered1: #445A43;
+    --spacing1: 0.7rem 6rem;
+    --spacing2: 0.7rem 4rem;
+    --spacing3: 0.6rem 2.5rem;
+    --spacing4: 0.5rem 1rem;
+    --heading1: 22px;
+    --heading1: 18px;
+    --b-shadow1: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.currencyUnit {
+    font-family: 'Lato', sans-serif;
+}

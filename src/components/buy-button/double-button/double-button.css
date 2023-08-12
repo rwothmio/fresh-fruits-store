@@ -1,0 +1,33 @@
+.doubleButton {
+    display: flex;
+    height: 38px;
+    width: 150px;
+    border: solid 1px var(--bg2);
+    border-radius: 4px;
+}
+
+.doubleButton * {
+    height: 100%;
+}
+
+.doubleButton button{
+    background: var(--bg1);
+    color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--heading1);
+}
+
+.doubleButton form input {
+    width: 52px;
+    text-align: center;
+    font-size: var(--heading1);
+    letter-spacing: 1.4px;
+}
+
+input:focus {
+    border: unset;
+    outline: unset;
+}

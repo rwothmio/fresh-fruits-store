@@ -1,0 +1,9 @@
+.singelButton {
+    width: 150px;
+    height: 38px;
+    font-size: var(--heading1);
+    letter-spacing: 1.2px;
+    color: white;
+    background: var(--bg1);
+    border-radius: 4px;
+}

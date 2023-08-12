@@ -1,0 +1,13 @@
+.cartContainer {
+    margin-top: 7rem;
+    min-height: 65vh;
+}
+
+#emptyCart {
+    padding: var(--spacing1);
+    font-weight: 500;
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+  

@@ -1,0 +1,122 @@
+.hero {
+    height: 550px;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.hero__bg {
+    height: 600px;
+    background-size: cover;
+    margin-top: 3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero__bg-overlay {
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 6rem 5rem;
+}
+
+#hero__title {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    align-self: center;
+    display: inline;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 180px;
+}
+
+#hero__arrows {
+    display: flex;
+    justify-content: space-between;
+}
+#hero__arrows * {
+    font-size: 4rem;
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#hero__arrows *:hover {
+    color: black;
+    opacity: 1;
+}
+
+.hero__products{
+    margin: var(--spacing1);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -26rem;
+}
+
+.hero__bg-overlay button {
+    color: white;
+    background: #bb4c03;
+    font-size: 26px;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    align-self: center;
+    height: 52px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 6px;
+    margin-top: 100px;
+}
+
+.hero__bg-overlay button:hover {
+    background: #ec6409;
+}
+
+
+@media screen and (min-width: 1366px) {
+    #hero__arrows {
+        width: calc(1366px - 12rem);
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        margin-bottom: 2rem;
+    }
+    .hero__bg {
+        height: 550px;
+    }
+    .hero__bg-overlay {
+        padding: 3rem 4rem 4rem;
+    }
+    #hero__title {
+        margin-bottom: 150px;
+    }
+    #hero__arrows * {
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 770px) {
+    .hero__bg-overlay {
+        padding: 3rem 2.5rem 4rem;
+    }
+    #hero__title {
+        margin-bottom: 130px;
+    }
+    #hero__arrows * {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .hero__bg-overlay {
+        padding: 3rem 1rem 4rem;
+    }
+    #hero__title {
+        margin-bottom: 110px;
+    }
+}

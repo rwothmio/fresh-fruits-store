@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* center all the main elements on very large screens*/
+@media screen and (min-width: 1366px) {
+    .main {
+        padding: 0 auto;
+    }
+}

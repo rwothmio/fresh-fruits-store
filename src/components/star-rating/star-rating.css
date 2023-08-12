@@ -1,0 +1,7 @@
+.starRating {
+    display: flex;
+}
+.starRating__star {
+    color: var(--txt2);
+    margin-top: 5px;
+}
