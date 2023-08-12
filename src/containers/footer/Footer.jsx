@@ -9,7 +9,7 @@ function Footer() {
       <div className="thisSite">
         <Link to="/about">About</Link>
         <a
-          href="https://github.com/rwothmio/Fresh-Fruits-Store-Webapp"
+          href="https://github.com/rwothmio/fresh-fruits-store"
           target="_blank"
         >
           Source Code
