@@ -20,6 +20,10 @@
     font-size: var(--heading1);
 }
 
+.doubleButton button:hover {
+    background: var(--hovered1);
+}
+
 .doubleButton form input {
     width: 52px;
     text-align: center;

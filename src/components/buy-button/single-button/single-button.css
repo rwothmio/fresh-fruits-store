@@ -1,4 +1,4 @@
-.singelButton {
+.singleButton {
     width: 150px;
     height: 38px;
     font-size: var(--heading1);
@@ -6,4 +6,8 @@
     color: white;
     background: var(--bg1);
     border-radius: 4px;
+}
+
+.singleButton:hover {
+    background: var(--hovered1);
 }

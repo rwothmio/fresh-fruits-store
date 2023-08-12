@@ -5,7 +5,7 @@ import { mapDispatchToProps } from '../../store/actions'
 
 function SingleButton({fruit, handleAdd}) {
   return (
-    <button className='singelButton' onClick={()=>handleAdd(fruit)}>Add</button>
+    <button className='singleButton' onClick={()=>handleAdd(fruit)}>Add</button>
   )
 }
 
