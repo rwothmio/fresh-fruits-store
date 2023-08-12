@@ -9,12 +9,12 @@ function About() {
           About the Fresh Fruits <span>&#127813;</span> Store:
         </h1>
         <p>
-          Hello there! I'm excited to share for this small project I've been working
+          Hello there! I'm excited to share this small project I've been working
           on – the <span className="freshFruitStore">Fresh Fruits Store</span>.
         </p>
         <br />
         <p>
-          You see, I'm a web developer &#128187;, and this is my way of showing
+          As a web developer &#128187; this is my way of showing
           off my skills in a practical way &#x1F528;.
         </p>
         <br />
