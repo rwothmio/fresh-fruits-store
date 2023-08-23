@@ -1,9 +1,9 @@
 import React, { useState, } from "react";
 import "./hero.css";
 import {
-  BiSolidRightArrow as RightArrow,
-  BiSolidLeftArrow as LeftArrow,
-} from "react-icons/bi";
+  IoIosArrowForward as RightArrow,
+  IoIosArrowBack as LeftArrow,
+} from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import heroFruits from "../../assets/heroFruits";
 
