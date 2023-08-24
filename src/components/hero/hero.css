@@ -39,13 +39,13 @@
 }
 #hero__arrows * {
     font-size: 4rem;
-    color: black;
+    color: white;
     opacity: 0.8;
     cursor: pointer;
 }
 
 #hero__arrows *:hover {
-    color: black;
+    color: white;
     opacity: 1;
 }
 
