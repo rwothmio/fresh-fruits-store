@@ -74,6 +74,8 @@
 
 .hero__bg-overlay button:hover {
     background: #ec6409;
+    position: relative;
+    bottom: 1px;
 }
 
 
