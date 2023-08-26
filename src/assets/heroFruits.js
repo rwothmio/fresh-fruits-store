@@ -5,7 +5,7 @@ const heroFruits = [
   },
   {
     name: 'All Grapes',
-    img: 'https://res.cloudinary.com/ddsfqfkyb/image/upload/v1693079636/fruits_images/hero-images/grapes_zftmxe.jpg'
+    img: 'https://res.cloudinary.com/ddsfqfkyb/image/upload/v1693079636/fruits_images/hero-images/grapes_zftmxe.jpg',
     path: '/search?q=grapes'
   },
   {
