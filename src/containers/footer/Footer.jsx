@@ -18,7 +18,7 @@ function Footer() {
 
       <div className="lastWords">
         <p>&copy; Rwothmio Bob {format(new Date(), "yyyy")}</p>
-        <small>Fresh Fruits Store V1.0.6</small>
+        <small>Fresh Fruits Store V1.0.7</small>
         <p id="kampala">-- Made In Kampala --</p>
       </div>
     </div>
